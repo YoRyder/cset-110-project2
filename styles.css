@@ -15,4 +15,83 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); 
 }
 
+.logo {
+    font-size: 1.5rem;
+}
 
+.nav__list {
+    list-style: none;
+    display: flex;
+}
+
+.nav__item {
+    margin-left: 20px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #333; 
+}
+
+.section__title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.section__subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.projects {
+    padding: 50px 20px;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-item {
+    border: 1px solid #444; 
+    padding: 20px;
+    flex: 1 1 calc(33% - 20px);
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1); 
+}
+
+.project-item h3 {
+    margin: 0 0 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff; 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #222; 
+}
+
+.social-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.social-list__item {
+    margin: 0 10px;
+}
